@@ -3,3 +3,14 @@ Subnet calculation tool
 
 Written by Yvan JANSSENS
 Tested by the members of the TI FaceBook group.
+
+How to compile
+--------------
+
+Windows users should install MinGW first, and add the bin folder to the PATH, so that your computer knows where to find GCC.
+Then you should just double click the compile_gcc_win.bat file, and a binary should appear
+
+Linux/OS X users should execute the following command in the main source tree:
+gcc -o kdgsubcalc src/kdgsubcalc.c
+
+This will produce an executable in the current directory called kdgsubcalc.
